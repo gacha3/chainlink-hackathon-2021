@@ -1,0 +1,5 @@
+.cryptopunk {
+  background-image: url('/punks.png');
+  background-repeat: no-repeat;
+  image-rendering: pixelated;
+}

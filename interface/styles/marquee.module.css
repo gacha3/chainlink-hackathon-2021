@@ -1,0 +1,26 @@
+.container {
+}
+
+.item {
+  animation-name: popup;
+  animation-duration: 2.6s;
+  animation-timing-function: cubic-bezier(0.49, 0.11, 0, 1);
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  will-change: top;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@keyframes popup {
+  0% {
+    top: 0px;
+  }
+  37.5% {
+    top: -28px;
+  }
+  100% {
+    top: -28px;
+  }
+}
